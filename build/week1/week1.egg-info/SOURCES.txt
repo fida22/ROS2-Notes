@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/week1
+week1/__init__.py
+week1/publisher_node.py
+week1/subscriber_node.py
+week1.egg-info/PKG-INFO
+week1.egg-info/SOURCES.txt
+week1.egg-info/dependency_links.txt
+week1.egg-info/entry_points.txt
+week1.egg-info/requires.txt
+week1.egg-info/top_level.txt
+week1.egg-info/zip-safe
