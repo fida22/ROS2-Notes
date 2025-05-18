@@ -326,4 +326,6 @@ if __name__ == '__main__':
 
 ![ss3.png](https://github.com/fida22/ROS2-Notes/blob/049754ed702bad2ef61739493ab91ac8c57d0bec/images/ss3.png)
 
-![ss4.png](https://github.com/fida22/ROS2-Notes/tree/049754ed702bad2ef61739493ab91ac8c57d0bec/images)
+![output](https://github.com/fida22/ROS2-Notes/blob/a6c90f31dda232ea5bba7c0e4ac5db6055a23157/images/q2%20output.png)
+
+![ss4.png](https://github.com/fida22/ROS2-Notes/blob/a6c90f31dda232ea5bba7c0e4ac5db6055a23157/images/ss4.png)
