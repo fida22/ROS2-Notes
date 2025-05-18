@@ -212,6 +212,7 @@ To run a ros2 node:
 
 > `ros2` `run` `package` `node`
 > 
+---
 
 # Publisher, Subscriber and Topic
 
@@ -259,6 +260,8 @@ in callback function:
 
 - take msg as parameter
 - msg  will contain the data
+- 
+---
 
 # Summary and Working of Week1 Task
 
