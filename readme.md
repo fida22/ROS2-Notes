@@ -33,17 +33,17 @@ sudo apt install software-properties-common
 sudo add-apt-repostory-universe
 ```
 
-![WhatsApp Image 2025-05-14 at 19.26.54.jpeg](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/WhatsApp_Image_2025-05-14_at_19.26.54.jpeg)
+![command details](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/command%20details.jpeg)
 
 - add ROS2 GPG key with apt
 
 ```bash
 sudo apt update && sudo apt install curl -y
 ```
-
-| **curl** | A command line tool to download data from URL |
+|Command|Explanation|
 | --- | --- |
-| -**y** | Automatically yes to prompts |
+| curl| A command line tool to download data from URL |
+| -y| Automatically yes to prompts |
 
 → This commands installs curl wthout asking conformation
 
@@ -51,10 +51,9 @@ sudo apt update && sudo apt install curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 ```
 
-| -sSL  | -s silent mode(Dont show progress)
--S show errors if -S is used
--L follow redirects if URL points to another Location |
+|Command|Explanation|
 | --- | --- |
+| -sSL  | -s silent mode(Dont show progress)<br>-S show errors if -S is used<br>-L follow redirects if URL points to another Location |
 | https://raw…./ros.key | The URL of the GPG key file for ROS |
 | -o/usr/….keyring.gpg | Output save in this location |
 
@@ -68,9 +67,9 @@ Add repository to ur source list
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 ```
-
-| echo "deb [ ... ] ... main” | This outputs a formatted APT source line for the ROS 2 repository. |
+|Commands|Explanation|
 | --- | --- |
+| echo "deb [ ... ] ... main” | This outputs a formatted APT source line for the ROS 2 repository. |
 | | sudo tee /etc/apt/sources.list.d/ros2.list | sudo tee is used because /etc/apt/sources.list.d/ros2.list requires root access.
 
 This file adds the ROS 2 repository as a new software source. |
@@ -107,7 +106,6 @@ source /opt/ros/humble/setup.bash
 NODE —> PACKAGE —>WORKSPACE
 
 <aside>
-📒
 
 **Node** is a program , that  has acess to ros functionalities and communications
 
@@ -195,9 +193,9 @@ When communicating between two nodes , one node publishes its msg to a topic and
 
 Example:
 
-![Screenshot from 2025-05-18 04-44-50.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/Screenshot_from_2025-05-18_04-44-50.png)
+![talker and listner](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/Talker%20and%20listner.png)
 
-![Screenshot from 2025-05-18 04-45-35.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/Screenshot_from_2025-05-18_04-45-35.png)
+![Screenshot from 2025-05-18 04-45-35.png](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/rqt_graph_talker_listner.png)
 
 Here:
 
@@ -234,9 +232,9 @@ in callback function:
 
 # Summary and Working of Week1 Task
 
-![ss1.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/ss1.png)
+![ss1.png](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/ss1.png)
 
-![ss2.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/ss2.png)
+![ss2.png](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/ss2.png)
 
 ```python
 #!/usr/bin/env python3
@@ -293,6 +291,7 @@ if __name__ == '__main__':
     main()
 ```
 
-![ss3.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/2a0edf9c-f685-4dbe-9708-5ddbaffa0513.png)
+![ss3.png](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/ss3.png)
 
-![ss4.png](ROS2-Humble%20Hawksbill%201f4507f000aa8055a635ec57c42b2d55/ss4.png)
+![ss4.png](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/ss4.png)
+![q2output](https://github.com/fida22/ROS2-Notes/blob/ed9657addc4806d021b83405ee9460a6422c0a33/images/q2%20output.png)
