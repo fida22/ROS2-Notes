@@ -19,7 +19,7 @@ class SubscriberNode(Node):
             durability=DurabilityPolicy.VOLATILE,
             history=HistoryPolicy.KEEP_LAST,
             depth=5,
-            deadline=Duration(nanoseconds=10_000_000),  # 10ms
+            deadline=Duration(nanoseconds=10_000_000),  
             liveliness=LivelinessPolicy.MANUAL_BY_TOPIC,
             liveliness_lease_duration=Duration(seconds=1),
         )
