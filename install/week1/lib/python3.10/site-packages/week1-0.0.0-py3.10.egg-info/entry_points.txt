@@ -1,0 +1,4 @@
+[console_scripts]
+publisher_node = week1.publisher_node:main
+subscriber_node = week1.subscriber_node:main
+

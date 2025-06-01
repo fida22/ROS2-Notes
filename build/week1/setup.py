@@ -1,1 +1,0 @@
-/home/fida/marstask_ros2_ws/src/week1/setup.py
