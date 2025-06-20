@@ -1,15 +1,16 @@
 {
     "python.autoComplete.extraPaths": [
-        "/home/fida/ros2_ws/build/my_robot_controller",
         "/home/fida/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/fida/marstask_ros2_ws/install/week1/lib/python3.10/site-packages",
+        "/home/fida/marstask_ros2_ws/install/four_wheel_robot/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "python.analysis.extraPaths": [
-        "/home/fida/ros2_ws/build/my_robot_controller",
         "/home/fida/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/fida/marstask_ros2_ws/install/week1/lib/python3.10/site-packages",
+        "/home/fida/marstask_ros2_ws/install/four_wheel_robot/lib/python3.10/site-packages",
         "/opt/ros/humble/lib/python3.10/site-packages",
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
-    ],
-    "ros.distro": "humble"
+    ]
 }
