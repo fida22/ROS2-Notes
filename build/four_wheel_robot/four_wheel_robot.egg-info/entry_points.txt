@@ -1,3 +1,0 @@
-[console_scripts]
-obstacle_stop = four_wheel_robot.obstacle_stop_node:main
-

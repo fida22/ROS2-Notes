@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000240] (-) JobUnselected: {'identifier': 'four_wheel_robot'}
-[0.000276] (-) JobUnselected: {'identifier': 'week1'}
-[0.000304] (-) EventReactorShutdown: {}
